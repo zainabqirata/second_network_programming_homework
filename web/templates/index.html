@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Wireless Communications Learning Platform</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="{{ url_for('index') }}">Wireless Communications</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <section>
+            <h2>Lessons and Simulations</h2>
+            <ul>
+                <li>Lessons on wireless communication theories such as broadband and narrowband, and antenna concepts.</li>
+                <li>Simulations of wireless systems to understand performance and interactions between devices.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Illustrative Videos</h2>
+            <p>Explore communication processes and their real-life applications through illustrative videos.</p>
+        </section>
+
+        <section>
+            <h2>Student and Engineer Community</h2>
+            <p>Join the community of students and engineers to discuss modern developments and exchange experiences in the field of wireless communications.</p>
+        </section>
+    </div>
+
+</body>
+</html>
